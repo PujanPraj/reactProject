@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Procard from "./Procard";
 import Prolist from "../lists/Prolist";
-import { Link, h6 } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Products = () => {
   const [items, setItems] = useState(Prolist);
